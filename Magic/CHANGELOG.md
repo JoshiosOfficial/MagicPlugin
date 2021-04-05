@@ -1,5 +1,7 @@
 # CHANGELOG
 
+# 8.5.2
+
 # 8.5.1
 
  - Fix spell damage causing players to take other damage much more rapidly than normal

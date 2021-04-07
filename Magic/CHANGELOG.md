@@ -5,6 +5,7 @@
  - Fix shulker boxes being destructible (still)
  - Fix another piston dupe exploit
  - Fix magic mob spawn eggs
+ - Fix Growth not working on beetroots
 
 # 8.5.1
 

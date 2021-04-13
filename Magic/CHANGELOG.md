@@ -1,5 +1,7 @@
 # CHANGELOG
 
+# 8.5.3
+
 # 8.5.2
 
  - Fix shulker boxes being destructible (still)

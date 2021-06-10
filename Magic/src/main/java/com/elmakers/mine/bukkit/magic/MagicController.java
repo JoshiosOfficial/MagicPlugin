@@ -484,7 +484,6 @@ public class MagicController implements MageController {
     private boolean bypassBuildPermissions = false;
     private boolean bypassBreakPermissions = false;
     private boolean bypassPvpPermissions = false;
-    private boolean wandsBreakingPainting = true;
     private boolean bypassFriendlyFire = false;
     private boolean useScoreboardTeams = false;
     private boolean defaultFriendly = true;
@@ -1248,10 +1247,6 @@ public class MagicController implements MageController {
             }
         }
         return allowed;
-    }
-
-    public boolean canWandsBreakPainting() {
-        return wandsBreakingPainting;
     }
 
     public void clearCache() {
@@ -7708,7 +7703,6 @@ public class MagicController implements MageController {
         bypassBuildPermissions = properties.getBoolean("bypass_build", bypassBuildPermissions);
         bypassBreakPermissions = properties.getBoolean("bypass_break", bypassBreakPermissions);
         bypassPvpPermissions = properties.getBoolean("bypass_pvp", bypassPvpPermissions);
-        wandsBreakingPainting = properties.getBoolean("can_wands_break_paintings", wandsBreakingPainting);
         bypassFriendlyFire = properties.getBoolean("bypass_friendly_fire", bypassFriendlyFire);
         useScoreboardTeams = properties.getBoolean("use_scoreboard_teams", useScoreboardTeams);
         defaultFriendly = properties.getBoolean("default_friendly", defaultFriendly);
